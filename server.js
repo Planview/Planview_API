@@ -15,7 +15,7 @@ app.get('/pathfinder/report', function (req, res, next) {
   })
 });
 
-var server = app.listen(80, function () {
+var server = app.listen(3000, function () {
   console.log('CORS-enabled web server listening on port 80')
 });
 server.timeout = 1000 * 60 * 2;
